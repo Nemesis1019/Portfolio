@@ -1,0 +1,64 @@
+{
+    "projects":[
+        {   "id":"1",
+            "title":"Ecommerce",
+            "giturl":"https://github.com/Nemesis1019/Ecommerce",
+            "pageurl":"https://ecommerce-kappa-bice.vercel.app/",
+            "icons": ["js","react","tailwind"],
+            "imagenes": "../../assets/Ecommerce.png",
+            "imagedescription":"Ecommerce"
+        },
+        {   "id":"2",
+            "title":"Todo APP",
+            "giturl":"https://github.com/Nemesis1019/Todo",
+            "pageurl":"https://todo-indol-eta.vercel.app/",
+            "icons": ["js","react","tailwind"],
+            "imagenes":"",
+            "imagedescription":"TodoAPP"
+        },
+        {
+            "id":"3",
+            "title":"Login",
+            "giturl":"https://github.com/Nemesis1019/Login_view",
+            "pageurl":"https://front-2.vercel.app/login",
+            "icons": ["js","react","tailwind"],
+            "imagenes":"../../assets/Login.png",
+            "imagedescription":"Login"
+        },
+        {
+            "id":"4",
+            "title":"Trivium's page",
+            "giturl":"https://github.com/Nemesis1019/Triviums_page",
+            "pageurl":"https://nemesis1019.github.io/Triviums_page/",
+            "icons": ["js","html","tailwind"],
+            "imagenes":"../../assets/Trivium.png",
+            "imagedescription":"Trivium"
+        }
+        
+    ],
+    "texto":[
+        {
+            "title":"Ingeniero Electroníco",
+            "descripcion":"Hola! Me llamo Carlos,soy un Ingeniero Electroníco apasionado por la programación, disfruto enfrentando desafíos y resolviendo problemas en el desarrollo de software.Me considero curioso, perseverante y con creatividad para la resolución de problemas; así como tambien tengo un fuerte deseo de aprender y seguir creciendo .Me encuentro motivado para colaborar en equipos multifuncionales y contribuir al desarrollo de aplicaciones de vanguardia.",
+            "tecno":"Tecnologías de las que tengo conocimiento actualmente :",
+            "home":"Home",
+            "about":"Sobre mi",
+            "projects":"Proyectos",
+            "welcome":"Bienvenida/o",
+            "descripcion2":""
+            
+        },
+        {
+            "title":"Electronic Engineer",
+            "descripcion":"Hello! My name is Carlos, I am an Electronics Engineer passionate about programming. I enjoy tackling challenges and solving problems in software development. I consider myself curious, persevering, and creative when it comes to problem-solving. I also have a strong desire to learn and continue growing. I am motivated to collaborate in multifunctional teams and contribute to the development of vanguard applications.",
+            "tecno":"Technologies of which I currently have knowledge :",
+            "home":"Home",
+            "about":"About",
+            "projects":"Projects",
+            "welcome":"Welcome",
+            "descripcion2":""
+        }
+    ]
+
+    
+}
