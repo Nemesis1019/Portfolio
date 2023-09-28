@@ -8,7 +8,7 @@ import Python from "../../assets/icons8-python.svg"
 export function About(){
     const {Trans,Color}=useContext(Contexto)
     return(<Layout>
-        <div className={`w-full h-[100vh] flex flex-col gap-4 justify-center items-center text-2xl duration-1000 ease-out ${Color?"text-texto bg-fondo":"text-fondoclaro bg-white"} `} id="about">
+        <div className={`w-full h-[1400px] flex flex-col gap-4 justify-center items-center text-2xl duration-1000 ease-out ${Color?"text-texto bg-fondo":"text-fondoclaro bg-white"} `} id="about">
             <p className="text-5xl">
                 {texto[Trans?1:0].about}
             </p>
@@ -19,7 +19,7 @@ export function About(){
             <p className="flex flex-box justify-start w-full ml-[8%] text-xl md:text-2xl">
                 {texto[Trans?1:0].tecno}
             </p>
-            <span className="grid grid-cols-4  md:grid-cols-3 w-full justify-items-center ml-[8]  gap-6">
+            <span className="grid grid-cols-2  md:grid-cols-3 w-full justify-items-center ml-[8]  gap-6">
                 <div className="flex flex-col items-center duration-1000 ease-out hover:scale-125">
                     <BiLogoReact color="aqua" size={80}/>
                     <p>React</p>
@@ -29,7 +29,7 @@ export function About(){
                     <p>Javascript</p>
                 </div>
                 <div className="flex flex-col items-center duration-1000 ease-out hover:scale-125">
-                    <BiLogoHtml5 className="text-orange" size={80}/>
+                    <BiLogoHtml5 className="text-orange " size={80} />
                     <p>Html</p>
                 </div>
                 <div className="flex flex-col items-center duration-1000 ease-out hover:scale-125">
