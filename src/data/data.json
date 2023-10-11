@@ -5,7 +5,7 @@
             "giturl":"https://github.com/Nemesis1019/Ecommerce",
             "pageurl":"https://ecommerce-kappa-bice.vercel.app/",
             "icons": ["js","react","tailwind"],
-            "imagenes": "../../assets/Ecommerce.png",
+            "imagenes": "https://firebasestorage.googleapis.com/v0/b/portafolio-images.appspot.com/o/Ecommerce.png?alt=media&token=b5fe8f9d-b42c-4163-9b01-f51335b02528&_gl=1*e9ibj8*_ga*MTE4OTY0ODAyMC4xNjk1MzI5MTkw*_ga_CW55HF8NVT*MTY5Njk5NzcxNS40LjEuMTY5Njk5Nzk5Ni42MC4wLjA.",
             "imagedescription":"Ecommerce"
         },
         {   "id":"2",
@@ -13,16 +13,16 @@
             "giturl":"https://github.com/Nemesis1019/Todo",
             "pageurl":"https://todo-indol-eta.vercel.app/",
             "icons": ["js","react","tailwind"],
-            "imagenes":"",
+            "imagenes":"https://firebasestorage.googleapis.com/v0/b/portafolio-images.appspot.com/o/Todo.png?alt=media&token=0acbabb1-87bb-4a73-a0cd-af6e533b790c&_gl=1*w8yoal*_ga*MTE4OTY0ODAyMC4xNjk1MzI5MTkw*_ga_CW55HF8NVT*MTY5Njk5NzcxNS40LjEuMTY5Njk5ODMxNi4zNy4wLjA.",
             "imagedescription":"TodoAPP"
         },
         {
             "id":"3",
             "title":"Login",
             "giturl":"https://github.com/Nemesis1019/Login_view",
-            "pageurl":"https://front-2.vercel.app/login",
+            "pageurl":"https://front-2.vercel.app/",
             "icons": ["js","react","tailwind"],
-            "imagenes":"../../assets/Login.png",
+            "imagenes":"https://firebasestorage.googleapis.com/v0/b/portafolio-images.appspot.com/o/Login.png?alt=media&token=805eb47b-0a7b-4c02-b37b-14837ccbd717&_gl=1*1l2or76*_ga*MTE4OTY0ODAyMC4xNjk1MzI5MTkw*_ga_CW55HF8NVT*MTY5Njk5NzcxNS40LjEuMTY5Njk5ODI5My42MC4wLjA.",
             "imagedescription":"Login"
         },
         {
@@ -31,7 +31,7 @@
             "giturl":"https://github.com/Nemesis1019/Triviums_page",
             "pageurl":"https://nemesis1019.github.io/Triviums_page/",
             "icons": ["js","html","tailwind"],
-            "imagenes":"../../assets/Trivium.png",
+            "imagenes":"https://firebasestorage.googleapis.com/v0/b/portafolio-images.appspot.com/o/Trivium.png?alt=media&token=9165638f-b6a8-4e5a-8ea3-fdfcc9f4346d&_gl=1*1xaud2n*_ga*MTE4OTY0ODAyMC4xNjk1MzI5MTkw*_ga_CW55HF8NVT*MTY5Njk5NzcxNS40LjEuMTY5Njk5ODMzNC4xOS4wLjA.",
             "imagedescription":"Trivium"
         }
         
