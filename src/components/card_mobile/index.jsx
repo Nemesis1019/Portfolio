@@ -6,12 +6,12 @@ import {BiLogoTailwindCss} from "react-icons/bi"
 import {AiFillHtml5} from "react-icons/ai"
 import { useContext } from "react"
 import { Contexto } from "../../context"
-import R from "../../assets/R.png"
+
 export function CardMobile({datos}){
     const {Color}=useContext(Contexto)
     return(
         <div className=" w-full">
-            <div className="element mx-[8%] h-[200px] rounded-lg mb-6 flex flex-box border-2 border-black ">
+            <div className={`element mx-[8%] h-[200px] rounded-lg mb-6 flex flex-box border-2 ${!Color?"border-black":"border-white"} ` }>
                 <figure className="element h-full w-2/5  rounded-lg object-cover" >
                     <img src={datos.imagenes} className="w-full h-full object-cover"/>
                 </figure>

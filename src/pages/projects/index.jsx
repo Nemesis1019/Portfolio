@@ -14,7 +14,7 @@ export function Projects(){
     const valor=useMediaQuery('(min-width: 850px)')
     return(
          <Layout>
-            <div className={`  w-full h-screen flex flex-col justify-center items-center text-2xl duration-1000 ease-out ${Color?"text-texto bg-fondo":"text-fondoclaro bg-white"}`} id="projects">
+            <div className={`  w-full h-[1600px] flex flex-col justify-center items-center text-2xl duration-1000 ease-out ${Color?"text-texto bg-fondo":"text-fondoclaro bg-white"}`} id="projects">
                 <span className="elemento h-32 w-full flex flex-col justify-center items-center mb-5">
                     <h1 className="text-5xl">{texto[Trans?1:0].projects}</h1>
                 </span>
