@@ -60,7 +60,7 @@ export function Navbar(){
                             </li>
                         </a>
                         
-                        <a href="https://api.whatsapp.com/send/?phone=573045701103" target="_blank">
+                        <a href="mailto:caac1019@gmail.com" target="_blank">
                             <li> 
                                 <BiLogoGmail className={`${!Color?"text-fondoclaro":"text-texto"}  duration-1000 ease-out  hover:scale-150 ${!Color?"hover:text-black":"hover:text-white"}`} size={25}/>
                             </li>
