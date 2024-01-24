@@ -3,11 +3,11 @@ import { Contexto } from "../../context"
 import { useContext } from "react"
 import {BsGithub} from "react-icons/bs"
 import {AiFillPlayCircle} from "react-icons/ai"
-import {BiLogoJavascript} from "react-icons/bi"
+import {BiLogoJavascript,BiLogoDjango} from "react-icons/bi"
 import {BiLogoReact} from "react-icons/bi"
 import {BiLogoTailwindCss} from "react-icons/bi"
 import {AiFillHtml5} from "react-icons/ai"
-
+import Python from "../../assets/icons8-python.svg"
 
 
 export function Cardproject({datos}){
@@ -31,7 +31,7 @@ export function Cardproject({datos}){
                     </div>
                 </div>
                 <div className={` bg-white w-44 h-44 rounded-lg ${Car?" translate-x-[-100%]  transition duration-1000 opacity-0 ":"translate-x-0 transition duration-1000"} h-[80px]`}>
-                    <span className="w-full flex flex-grow h-2/5 ml-3 gap-4">
+                    <span className="w-full flex flex-grow h-2/5  gap-1">
                         {datos.icons.map(icon=>{
                             console.log(icon)
                             switch(icon){
@@ -40,9 +40,13 @@ export function Cardproject({datos}){
                                 case "react":
                                   return  <BiLogoReact color="aqua" size={35}/>    
                                 case "tailwind":
-                                  return  <BiLogoTailwindCss className="text-blue" size={35}/>
+                                  return  <BiLogoTailwindCss className="text-blue" size={30}/>
                                 case "html":
-                                    return<AiFillHtml5 className="text-orange " size={35}/>
+                                    return<AiFillHtml5 className="text-orange " size={30}/>
+                                case "django":
+                                    return<BiLogoDjango size={30}/>
+                                case "python":
+                                    return<img className="w-[84px] elemento" src={Python} alt="Python"/>
                             }   
                         })}
                     </span> 

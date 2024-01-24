@@ -36,9 +36,14 @@ export function CardMobile({datos}){
                     </div>
                     
                 </span>
-                <span className={`{Color?:"bg-white":"bg-fondo"} w-1/5 rounded-lg flex flex-col justify-center items-center gap-4`}>   
-                    <BsGithub className="animate-pulse"/>
-                    <AiFillPlayCircle className="animate-pulse"/>           
+                <span className={`{Color?:"bg-white":"bg-fondo"} w-1/5 rounded-lg flex flex-col justify-center items-center gap-4`}> 
+                    <a className={`flex flex-col items-center justify-center bg-gray-400 text-white w-1/3 h-16   transition  ${!Color?"hover:bg-black duration-1000 rounded-lg hover:scale-125 ":"hover:bg-white hover:text-black duration-1000 rounded-lg hover:scale-125 text-gray-900"}`} href={datos.giturl} target="_blank" rel="noreferrer">
+                        <BsGithub className="animate-pulse"/>
+                    </a>
+                    <a className={`flex flex-col items-center justify-center bg-gray-400 text-white w-1/3 h-16   transition  ${!Color?"hover:bg-black duration-1000 rounded-lg hover:scale-125 ":"hover:bg-white hover:text-black duration-1000 rounded-lg hover:scale-125 text-gray-900"}`} href={datos.pageurl} target="_blank" rel="noreferrer">
+                        <AiFillPlayCircle className="animate-pulse"/>  
+                    </a>
+                             
                 </span>
             </div>
         </div>

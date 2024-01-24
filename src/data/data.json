@@ -33,7 +33,17 @@
             "icons": ["js","html","tailwind"],
             "imagenes":"https://firebasestorage.googleapis.com/v0/b/portafolio-images.appspot.com/o/Trivium.png?alt=media&token=9165638f-b6a8-4e5a-8ea3-fdfcc9f4346d&_gl=1*1xaud2n*_ga*MTE4OTY0ODAyMC4xNjk1MzI5MTkw*_ga_CW55HF8NVT*MTY5Njk5NzcxNS40LjEuMTY5Njk5ODMzNC4xOS4wLjA.",
             "imagedescription":"Trivium"
+        },
+        {
+            "id":"5",
+            "title":"Crud",
+            "giturl":"https://github.com/Nemesis1019/Crud_Front",
+            "pageurl":"https://crud-front-flame.vercel.app/",
+            "icons": ["js","react","python","django"],
+            "imagenes":"https://firebasestorage.googleapis.com/v0/b/portafolio-images.appspot.com/o/Crud.PNG?alt=media&token=783fab25-7197-4fcc-970a-a02367425b4f",
+            "imagedescription":"Crud"
         }
+
         
     ],
     "texto":[
