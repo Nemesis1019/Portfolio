@@ -21,6 +21,10 @@ This project is version number 1 of a web portfolio, this time with a minimalist
 3.- Go to the main project folder :
 
     npm i
+    
+4 . Start local server :
+
+    npm run dev
 
 
 # Demo
