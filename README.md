@@ -1,8 +1,28 @@
-# React + Vite
+# Portfolio v1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Website created in [React](https://es.react.dev/) , [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript) and styled with [TailwindCSS](https://tailwindcss.com/) and [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS). 
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#  Description
+This project is version number 1 of a web portfolio, this time with a minimalist approach. It includes some customization options within the app itself, animations, as well as the option to switch between languages. There is a section where access is given to the various projects completed.
+
+
+# Configuration
+
+1.- Clone this repository:
+ 
+	https://github.com/Nemesis1019/Portfolio.git
+
+  
+2.- Go to the main project folder : :
+
+    cd Portfolio
+
+3.- Go to the main project folder :
+
+    npm i
+
+
+# Demo
+At the following link, you'll find a demo of the project.
+[Link](https://portfolio-gamma-two-53.vercel.app/)
