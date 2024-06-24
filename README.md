@@ -18,7 +18,7 @@ This project is version number 1 of a web portfolio, this time with a minimalist
 
     cd Portfolio
 
-3.- Go to the main project folder :
+3.- Install project dependencies :
 
     npm i
     
