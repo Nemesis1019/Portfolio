@@ -22,10 +22,9 @@ function App() {
             <Route path="/" element={<Home/>}/>
             
           </Routes>
-          
-          <About/>
-          <Projects/>
           {!valor?<Navmobile/>:<Navbar/>}
+          
+          
         </BrowserRouter>
       </ProContexto>
     </>

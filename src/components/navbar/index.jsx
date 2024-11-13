@@ -22,7 +22,7 @@ export function Navbar(){
       };
     const active="bg-black"
     return(
-        <nav className={`flex flex-col  fixed z-10 left-0 top-0 w-2/5 px-3 py-5 gap-3 h-screen duration-1000 ease-out ${Color?"bg-fondo":"bg-white"}`} >
+        <nav className={`flex flex-col fixed   left-0 top-0 w-2/5 px-3 py-5 gap-3 min-h-screen duration-1000 ease-out ${Color?"bg-fondo":"bg-white"}`} >
                 <span className="flex flex-box gap-2">
                     <BsFillLightbulbFill onClick={()=>{setColor(!Color)}} className={`text-texto  duration-1000 ease-out  hover:scale-150 cursor-pointer ${Color?"hover:text-white":"hover:text-fondo"} `} size={25}/>
                     <HiLanguage onClick={()=>{setTrans(!Trans)}} className={`text-texto  duration-1000 ease-out  hover:scale-150 cursor-pointer ${Color?"hover:text-white":"hover:text-fondo"} ${(!Color?(Trans?"text-red-500 scale-[150%]":"scale-100 "):(Trans?"scale-[150%] text-green-500 ":"scale-100"))}` } size={25} />
